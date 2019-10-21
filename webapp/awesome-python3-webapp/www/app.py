@@ -16,7 +16,6 @@ from aiohttp import web
 def index(request):
     return web.Response(body=b'<h1>Awesome</h1>', headers={'content-type':'text/html'})
 
-@asyncio.coroutine
 async def init(event_loop):
     app = web.Application(loop=event_loop)
     app.router.add_route("GET", "/", index)
