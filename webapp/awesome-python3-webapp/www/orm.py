@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #-*- coding: utf-8 -*-
 
-__Author__ = 'Jonathan Chen'
+__author__ = 'Jonathan Chen'
 __date__   = '2019-10-21'
 '''
 create link pool for database connect with Mysql
